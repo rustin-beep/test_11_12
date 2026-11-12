@@ -1,0 +1,22 @@
+{
+  "name": "homework-system",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "作业管理系统:原生 TS 前后端分离,零运行时依赖",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "dev:server": "node --watch server/main.ts",
+    "dev:web": "npm --prefix web run dev",
+    "build": "npm --prefix web install --include=dev --no-audit --no-fund && npm --prefix web run build",
+    "start": "node server/main.ts",
+    "test": "node --test tests/",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p web/tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.7.0"
+  }
+}

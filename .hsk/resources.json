@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "resources": [
+    {
+      "id": "tunnel-127.0.0.1-8080",
+      "type": "tunnel",
+      "localIp": "127.0.0.1",
+      "localPort": 8080,
+      "publicUrl": "https://0e42e6d02e5c.hz-1.aicp.space?verify_code=2355",
+      "pid": 33668,
+      "binary": "hsk-cli-windows-amd64-v0.10.11.exe",
+      "detached": false,
+      "status": "running",
+      "createdAt": "2026-11-12T16:19:15.776Z",
+      "lastCheckedAt": "2026-11-12T16:19:15.776Z"
+    },
+    {
+      "id": "host-1794501746192080270",
+      "type": "host",
+      "filePath": "D:\\code\\test_11_12\\web\\dist",
+      "publicUrl": "https://0jd6rk.gicp.fun",
+      "resourceId": "1794501746192080270",
+      "fileName": "dist",
+      "status": "active",
+      "createdAt": "2026-11-12T16:42:37.923Z",
+      "lastCheckedAt": "2026-11-12T16:42:37.924Z",
+      "expireStatus": "active",
+      "expireAt": "",
+      "expireSource": "follow",
+      "passwordEnabled": false
+    }
+  ]
+}

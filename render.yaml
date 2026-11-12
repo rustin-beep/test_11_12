@@ -1,0 +1,11 @@
+# Render.com 一键部署蓝图:免费层,从 GitHub 自动构建
+services:
+  - type: web
+    name: homework-system
+    runtime: node
+    plan: free
+    buildCommand: npm install --include=dev --no-audit --no-fund && npm run build
+    startCommand: node server/main.ts
+    envVars:
+      - key: NODE_VERSION
+        value: 22.11.0
