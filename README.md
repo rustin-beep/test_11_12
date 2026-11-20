@@ -1,7 +1,5 @@
 # 作业管理系统(原生 TypeScript,零运行时依赖)
 
-> 课程作业 · 提交人:**迪克组** · 博客:[rustin-beep.github.io](https://rustin-beep.github.io)
-
 学生提交作业(文件/文本,带实时倒计时与逾期判定)、教师发布作业、管理多班名单、自动统计缺交、批阅打分、简版查重、CSV 导入导出。
 
 **技术栈**:前端 Vite + 原生 TS(无框架);后端 Node.js 内置模块(`node:http` + `node:sqlite` + `node:crypto`),**运行时 npm 依赖 = 0**。Node ≥ 22.5(建议 22 LTS+),Windows 单机可直接跑。
